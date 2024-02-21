@@ -1,0 +1,167 @@
+body{
+    background-color: pink;
+    
+}
+@font-face {
+    font-family: future;
+    src: url(Rejouice-Headline.ttf);
+}
+@font-face {
+    font-family: satisfy;
+    src: url(Satisfy-Regular.ttf);
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: future;
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    min-height: 100vh;
+}
+
+@keyframes anim{
+    from{opacity: 0;scale: .5;}
+    to{opacity: 1;scale: 1;}
+}
+.p2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 45px;
+    font-family: satisfy;
+    color: rgb(255, 255, 255);
+    animation: anim linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 400px;
+}
+
+.p3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 45px;
+    font-family: satisfy;
+    color: rgb(255, 255, 255);
+    animation: anim linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 400px;
+}
+.p4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 45px;
+    font-family: satisfy;
+    color: rgb(255, 255, 255);
+    animation: anim linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 400px;
+}
+.p5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    font-family: satisfy;
+    color: rgb(255, 255, 255);
+    animation: anim linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 400px;
+}
+.p6{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    font-family: satisfy;
+    color: rgb(255, 255, 255);
+    animation: anim linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 400px;
+}
+.p6>span{
+    color: red;
+}
+.p7{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    font-family: satisfy;
+    color: rgb(230, 98, 127);
+    animation: anim linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 400px;
+}
+.propose{
+    width: 100%;
+}
+.p9{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: -50px;
+}
+.yes{
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    border-radius: 25px;
+    font-weight: 700;
+    color: pink;
+    background-color: white;
+}
+.no{
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    border-radius: 25px;
+    font-weight: 700;
+    color: pink;
+    background-color: white;
+}
+
+.p10{
+    height: 450px;
+}
+.answer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
